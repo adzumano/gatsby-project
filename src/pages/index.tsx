@@ -1,11 +1,12 @@
 import * as React from 'react'
 
-import { Layout } from '../components/Layout/Layout'
+import { Layout } from '../processes/layout/Layout'
+import { ProductCategory } from '../widgets'
 
 const IndexPage = () => {
     return (
         <Layout pageTitle="Home Page">
-            <h1 className={'text-heading1'}>Heading 1</h1>
+            <ProductCategory />
         </Layout>
     )
 }

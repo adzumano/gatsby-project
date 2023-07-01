@@ -1,0 +1,3 @@
+.title {
+  @apply relative after:content-[''] after:absolute after:w-[35px] after:h-[1px] after:bg-black after:ml-[10px] after:top-2/4;
+}

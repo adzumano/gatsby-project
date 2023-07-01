@@ -1,0 +1,15 @@
+.card {
+  @apply bg-white shadow-header w-fit p-[20px]
+}
+
+.small {
+  @apply w-[220px] min-h-[280px] rounded-[8px]
+}
+
+.large {
+  @apply w-[260px] min-h-[385px] rounded-[12px]
+}
+
+.hovering {
+  @apply shadow-none hover:shadow-header
+}
